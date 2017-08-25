@@ -21,7 +21,7 @@ function moveEl(e) {
     }
 
     // Adiciona o efeito no background
-    bg.style.transform = `translate(${xWalk / 2}px, ${yWalk / 2}px) scale(2)`
+    bg.style.transform = `translate(${xWalk}px, ${yWalk}px)`
 }
 
 container.addEventListener('mousemove', moveEl);
